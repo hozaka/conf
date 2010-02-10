@@ -1,5 +1,5 @@
 # PS1="\[\033[01;33m\]\w\[\033[00m\]\$ "
-PS1="[\u \w]$ "
+PS1="[\u:local \[\033[01;33m\]\w\[\033[00m\]]$ "
 export EDITOR=vim
 export ARCHFLAGS="-arch x86_64"
 
