@@ -32,7 +32,7 @@ syn on sync fromstart
 set modeline modelines=2
 
 syntax on                 " Enable syntax highlighting
-"colorscheme railscasts
+colorscheme vibrantink
 "set cursorline
 
 augroup mkd
