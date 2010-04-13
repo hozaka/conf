@@ -8,7 +8,7 @@ alias ls="ls -G"
 alias ll="ls -l"
 
 PATH="/usr/local/ruby/bin:$PATH"
-PATH="/usr/local/mysql/bin:/usr/local/python/bin:/usr/local/bin:$PATH"
+PATH="/usr/local/mysql/bin:/usr/local/python/bin:/usr/local/bin:$HOME/bin:$PATH"
 
 export PATH
 
