@@ -1,8 +1,12 @@
 require 'rubygems'
-require 'hirb'
-Hirb::View.enable
 
-require 'wirble'
-Wirble.init
-Wirble.colorize
+begin
+  require 'hirb'
+  Hirb::View.enable
 
+  require 'wirble'
+  Wirble.init
+  Wirble.colorize
+rescue Exception => e
+  puts e.message
+end

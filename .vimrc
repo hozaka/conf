@@ -1,7 +1,11 @@
 
 set shiftwidth=4
 set tabstop=4
-"set smarttab
+set smarttab
+set mouse=a
+set list
+set listchars=tab:▸\ ,eol:¬
+set spell
 
 set encoding=utf-8
 
@@ -12,6 +16,7 @@ set nocompatible          " We're running Vim, not Vi!
 set more
 set number
 set fileencodings=utf8,gbk
+set linespace=1
 set showmatch
 set laststatus=2
 set showmode
@@ -42,4 +47,7 @@ augroup mkd
       autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:>
 
 augroup END
+
+" GUI Settings
+set guifont=Monaco:h13
 
