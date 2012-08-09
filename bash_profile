@@ -8,12 +8,14 @@ alias ls="ls -G"
 alias ll="ls -l"
 
 PATH="/usr/local/ruby/bin:$PATH"
-PATH="/usr/local/mysql/bin:/usr/local/python/bin:/usr/local/bin:$HOME/bin:$PATH"
+PATH="/usr/local/mysql/bin:/usr/local/python/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH"
+# Append gcc path temporarily
+# PATH="/Applications/Xcode.app/Contents/Developer/usr/bin:$PATH"
 
 export PATH
 
 
-# Ruby Falco Performance Patch
+# Ruby Falcon Performance Patch
 # ============================
 # Putting the following in your shell config (eg. ~/.bash_profile) will make Rails even faster, but will increase its memory footprint:
 export RUBY_HEAP_MIN_SLOTS=1000000
