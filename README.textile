@@ -1,3 +1,0 @@
-h1. How To Use
-
-Run the "install.rb" to link the configure files to your home directory. Do not forget to backup your own settings before do that.
